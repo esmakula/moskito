@@ -15,7 +15,6 @@
 
     <div class="content">
         <div class="tags-wrapper">
-        <div>
             <ano:notEmpty name="tags">
                 <ano:iterate name="tags" type="net.anotheria.moskito.webui.tags.bean.TagBean" id="tag" indexId="index">
                     <div class="card-box">
@@ -50,7 +49,6 @@
                     </div>
                 </a>
             </div>
-        </div>
         </div>
     </div>
 
