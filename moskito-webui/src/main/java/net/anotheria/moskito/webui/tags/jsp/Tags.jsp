@@ -22,7 +22,7 @@
                             <div class="panel-heading card-header card-color-${tag.type.name}">
                                 <i class="fa fa-tag card-tag-icon"></i>${tag.name}
                             </div>
-                            <div class="panel-body card-body">
+                            <div class="panel-body card-body wordwrap">
                                 <p><strong>Type: </strong>${tag.type.name}</p>
                                 <p><strong>Source: </strong>${tag.source}</p>
                             </div>
