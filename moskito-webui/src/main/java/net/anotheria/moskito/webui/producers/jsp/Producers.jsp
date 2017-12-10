@@ -55,7 +55,7 @@ Commented out for now. We may add this later as welcome message (to all layers).
                         <input type="hidden" value="<ano:write name="decorator" property="name"/>_<ano:write name="caption" property="jsVariableName"/>"/>${caption.caption}<i class="fa fa-caret-down"></i><i class="chart-icon tooltip-bottom" title="Show chart"></i>
                     </th>
                 </ano:iterate>
-                <th>Class</th>
+                <%--<th>Class</th>--%>
                 <th></th>
             </tr>
             </thead>
@@ -69,7 +69,7 @@ Commented out for now. We may add this later as welcome message (to all layers).
                 <ano:iterate name="producer" property="firstStatsValues" id="value" type="net.anotheria.moskito.core.decorators.value.StatValueAO">
                     <td class="tooltip-bottom" title="${producer.producerId}.${value.name}=${value.value}">${value.value}</td>
                 </ano:iterate>
-                <td>${producer.producerClassName}</td>
+                <%--<td>${producer.producerClassName}</td>--%>
 
                 <td class="actions-links">
                     <ano:notEmpty name="dashboardNames">
